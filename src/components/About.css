@@ -1,0 +1,74 @@
+#aboutMe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* margin-top: 5rem; */
+    padding: 4rem 15rem;
+    color: var(--mainBlue);
+}
+
+#aboutMe h1,
+#aboutMe h2,
+#aboutMe div {
+    width: 30%;
+    height: auto;
+    white-space: nowrap;
+}
+
+#aboutMe h1 {
+    margin: auto 0;
+    font-size: 2.5em;
+}
+
+
+#aboutMe h2 {
+    margin-top: auto;
+    width: 50%;
+    font-size: 2em;
+    text-align: right;
+}
+
+#aboutMe div:first-of-type {
+    margin: auto 0;
+    white-space: normal;
+}
+
+#aboutMe p {
+    font-size: 1.5em;
+}
+
+#aboutMe img {
+    width: 15%;
+    border: .2em solid var(--mainBlue);
+    border-radius: 50%;
+}
+
+#aboutMe .right {
+    text-align: right;
+}
+
+#aboutMe .left {
+    text-align: left;
+}
+
+#aboutMe .info {
+    width: 100%;
+    margin: 3rem auto;
+    text-align: justify;
+    line-height: 1.7rem;
+
+}
+
+@media (min-width: 1450px) {}
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 1024px) {}
+
+@media (max-width: 768px) {}
+
+@media (min-width: 560px) and (max-width: 768px) {}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 380px) {}

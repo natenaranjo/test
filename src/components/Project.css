@@ -1,0 +1,103 @@
+.boxGroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    padding: 0;
+    margin: 0;
+}
+
+.boxSection3,
+.boxSection4 {
+    flex-direction: row-reverse;
+}
+
+.box {
+    width: 48%;
+    padding: 1rem;
+    color: var(--mainBlue)
+}
+
+.box p {
+    margin: .7rem 0;
+    line-height: 1.3rem;
+    text-align: justify;
+}
+
+.box img {
+    width: 100%;
+}
+
+.box a {
+    text-decoration: none;
+}
+
+.box .repoIcons {
+    color: var(--pink);
+    font-size: 1.5rem;
+}
+
+.repoIcons:hover {
+    color: var(--green);
+}
+
+
+
+.title {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60%;
+    padding: .7em 1em;
+    text-align: center;
+    background-color: var(--mainBlue);
+    border-radius: .3rem;
+    margin: 2rem auto;
+}
+
+.title a {
+    color: var(--lightBlue);
+}
+
+.title .projectLink {
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-thickness: .2rem;
+    text-decoration-color: var(--green);
+}
+
+.projectLink:hover {
+    font-weight: bolder;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-thickness: .2rem;
+    text-decoration-color: var(--pink);
+    color: var(--green);
+}
+
+@media (min-width: 1450px) {}
+
+@media (max-width: 1450px) {
+
+    .box p {
+        font-size: .9rem;
+        line-height: 1rem;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .title {
+        font-size: .8rem;
+    }
+}
+
+@media (max-width: 1024px) {}
+
+@media (max-width: 768px) {}
+
+@media (min-width: 560px) and (max-width: 768px) {}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 380px) {}

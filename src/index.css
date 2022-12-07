@@ -1,0 +1,62 @@
+:root {
+  --mainBlue: #30A7C1;
+  --lightBlue: #C6DDE2;
+  --pink: #F43D70;
+  --green: #B5D3AE;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Nothing+You+Could+Do&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  padding-top: 6rem;
+  margin: 0;
+  line-height: 1;
+  font-family: 'Comfortaa', cursive;
+  background-color: var(--lightBlue);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+}
+
+input,
+select,
+option,
+optgroup,
+textarea,
+button,
+pre,
+code {
+  font-size: 100%;
+  font-family: inherit;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+.pink {
+  font-weight: bolder;
+  color: var(--pink);
+}
+
+.mainSection {
+  padding: 3em .5em;
+}
